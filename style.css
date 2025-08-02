@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inder', sans-serif;
+}
+.wrapper-header {
+    background: #87CEEB;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    flex-wrap: wrap;
+}
+.wrapper-leftSide {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    gap: 10px;
+}
+.wrapper-leftSide img {
+    width: 40px;
+    height: 40px;
+}
+.wrapper-rightSide ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.img-bg {
+    position: relative;
+    background-image: url(./kids\ 1.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #8396F0;
+    opacity: 0.3;
+    z-index: 1;
+}
+.img-bg p {
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-size: 48px;
+    padding: 0 20px;
+    max-width: 90%;
+}
+.paragraph {
+    background: #87CEEB;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+.content {
+    font-size: 18px;
+    font-family: 'Montserrat';
+    max-width: 1000px;
+    margin: auto;
+    line-height: 1.8;
+}
+.wrapper-footer {
+    background: #87CEEB;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+.pro {
+    background-color: #8396F0;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .wrapper-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .wrapper-rightSide ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .img-bg {
+        height: 400px;
+    }
+    .img-bg p {
+        font-size: 32px;
+    }
+    .content {
+        font-size: 16px;
+        padding: 0 1rem;
+    }
+    .footer {
+        font-size: 18px;
+    }
+    .pro {
+        font-size: 18px;
+        width: auto;
+    }
+}

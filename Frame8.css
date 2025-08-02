@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+  background-color: #b3e5fc;
+  color: #000000;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.quote {
+  background: white;
+  padding: 20px;
+  margin: 0 auto 30px;
+  border-radius: 15px;
+  width: fit-content;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.quote p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.quote span {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.draft-box img {
+  width: 80%;
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.subjects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin: 40px 0;
+  font-family: 'Montserrat';
+}
+
+.subject {
+font-family: 'Montserrat';
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 180px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.subject img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.subject p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.message {
+  font-size: 16px;
+  padding: 0 20px;
+  margin: 30px 0;
+  color: #333;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.return {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+}
